@@ -1,0 +1,6 @@
+# Run inside HBase container after it is healthy, e.g.:
+# docker compose exec hbase bash -c "echo \"create 'crypto_stream_metrics', 'm'\" | hbase shell -n"
+
+create 'crypto_stream_metrics', {NAME => 'm'}
+list 'crypto_stream_metrics'
+scan 'crypto_stream_metrics', {LIMIT => 5}
