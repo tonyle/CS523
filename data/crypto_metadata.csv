@@ -1,0 +1,6 @@
+symbol,asset_name,category,risk_tier
+BTCUSDT,Bitcoin,Layer-1,Medium
+ETHUSDT,Ether,Layer-1,Medium
+SOLUSDT,Solana,Layer-1,High
+ADAUSDT,Cardano,Layer-1,Medium
+BNBUSDT,BNB Coin,Exchange,Medium
