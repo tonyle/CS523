@@ -172,3 +172,6 @@ The plan references micro-batches and reliability: HBase here is updated per mic
 ## Video demo checklist
 
 Show: public API → Kafka topic → Spark console or logs → HBase `scan` → Streamlit refresh, with all presenters on camera per course requirements.
+
+## Quick Start
+Run setup scripts in scripts/ and use docker-compose for local services.
