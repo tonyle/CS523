@@ -1,0 +1,12 @@
+target/
+checkpoints/
+.idea/
+*.iml
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.local/
+logs/*.log
+nohup.out
