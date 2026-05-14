@@ -119,7 +119,7 @@ Requires HBase Thrift on `localhost:9090` (exposed by the `harisekhon/hbase` ima
 
 ```bash
 cd dashboard
-python3 -m venv .venv && source .venv/bin/activate
+source .venv/bin/activate.fish
 pip install -r requirements.txt
 streamlit run app.py
 ```
