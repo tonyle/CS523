@@ -62,6 +62,12 @@ Environment (optional):
 
 ## 4. Run Spark Structured Streaming
 
+Setup local HDFS
+```bash
+chmod +x scripts/setup-local-hdfs-macos.sh
+./scripts/setup-local-hdfs-macos.sh
+```
+
 Install spark hadoop3 if not ready
 ```bash
 curl -L -o spark.tgz https://archive.apache.org/dist/spark/spark-3.5.0/spark-3.5.0-bin-hadoop3.tgz
